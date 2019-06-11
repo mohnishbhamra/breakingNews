@@ -9,7 +9,7 @@ function getFileObject() {
         fileObject = file[0].file;
         getBase64FromBlob(fileObject, function (base64Str) {
             base64Global = base64Str;
-          	Form1.imgWidget.rawBytes = base64Global;
+          	Form1.imgWidget.base64 = base64Global;
         });
         uploadBinary();
     });
