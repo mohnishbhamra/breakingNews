@@ -1,0 +1,28 @@
+{
+    "AS_Button_cbbe09bffa5a4efdb12786bcd5ee0c1c": {
+        "id": "AS_Button_cbbe09bffa5a4efdb12786bcd5ee0c1c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ee483a0b74a74859a3e1016270a71506"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i9453bb2624e4b6385ec81567ab4f3be",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getFileObject",
+            "display": "getFileObject",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}
