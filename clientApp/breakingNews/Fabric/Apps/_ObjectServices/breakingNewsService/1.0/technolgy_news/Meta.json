@@ -1,0 +1,79 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdatetimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "technolgy_news",
+      "qualifiedName" : "breakingnews.technolgy_news",
+      "metadataformatterobject" : "{\"displayName\":\"technolgy_news\",\"qualifiedName\":\"breakingnews.technolgy_news\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"technolgy_news\",\"schemaName\":\"breakingnews\",\"tableName\":\"technolgy_news\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "technolgy_news",
+      "qualifiedName" : "breakingnews.technolgy_news",
+      "metadataformatterobject" : "{\"displayName\":\"technolgy_news\",\"qualifiedName\":\"breakingnews.technolgy_news\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"technolgy_news\",\"schemaName\":\"breakingnews\",\"tableName\":\"technolgy_news\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "techid",
+    "targetField" : "techid",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "image3",
+    "targetField" : "image3",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "stateId",
+    "targetField" : "stateId",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatetimestamp",
+    "targetField" : "lastupdatetimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "description",
+    "targetField" : "description",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "title",
+    "targetField" : "title",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "image1",
+    "targetField" : "image1",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "image2",
+    "targetField" : "image2",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "state_newscol",
+    "targetField" : "state_newscol",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Date",
+    "targetField" : "Date",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}

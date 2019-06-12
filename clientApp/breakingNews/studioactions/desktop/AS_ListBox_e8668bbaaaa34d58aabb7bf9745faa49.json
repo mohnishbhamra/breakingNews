@@ -1,0 +1,18 @@
+{
+    "AS_ListBox_e8668bbaaaa34d58aabb7bf9745faa49": {
+        "id": "AS_ListBox_e8668bbaaaa34d58aabb7bf9745faa49",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWelcome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b3d4bd6b690a4a7d98c09580cbf6b70b"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,33 @@
+[ {
+  "sourceObject" : "state_news",
+  "targetObject" : "sports_news",
+  "relationshipKeys" : [ {
+    "sourceField" : "Date",
+    "targetField" : "Date",
+    "etag" : "16e8dd4d-9f19-438e-8b5a-c6e2854f7477"
+  }, {
+    "sourceField" : "stateId",
+    "targetField" : "stateId",
+    "etag" : "16e8dd4d-9f19-438e-8b5a-c6e2854f7477"
+  } ],
+  "name" : "state_news_sports_news",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "state_news",
+  "targetObject" : "technolgy_news",
+  "relationshipKeys" : [ {
+    "sourceField" : "Date",
+    "targetField" : "Date",
+    "etag" : "d09c365d-1624-47a4-be55-49baf82daca9"
+  }, {
+    "sourceField" : "stateId",
+    "targetField" : "stateId",
+    "etag" : "d09c365d-1624-47a4-be55-49baf82daca9"
+  } ],
+  "name" : "state_news_technolgy_news",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

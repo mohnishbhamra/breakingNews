@@ -1,0 +1,28 @@
+{
+    "AS_Button_f18acf7e675b4050b82c7e9c0b0aabfc": {
+        "id": "AS_Button_f18acf7e675b4050b82c7e9c0b0aabfc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWelcome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b3d4bd6b690a4a7d98c09580cbf6b70b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e78c4f7a01064f4499b617c7533af294",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getNews",
+            "display": "getNews",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

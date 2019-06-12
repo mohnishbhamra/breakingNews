@@ -42,8 +42,7 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "imgWidget",
-        "btnGetImage"
+        "segNews"
     ],
     "containerweight": 100,
     "currentLocale": "default",
@@ -53,8 +52,9 @@
     "device": "desktopweb",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "Form1",
-    "ide_init": "AS_Form_a35f54468796495ebbdefd7b712fb6e2",
+    "id": "frmNews",
+    "ide_postShow": "AS_Form_f457551e7c354cb49cff22d4f0d032aa",
+    "ide_preShow": "AS_Form_i741e54bfd644ff7ad50b530ea86e115",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -77,7 +77,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "ee483a0b74a74859a3e1016270a71506",
+    "kuid": "j46a46d72a3b429daee0739d6eaca8c1",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,

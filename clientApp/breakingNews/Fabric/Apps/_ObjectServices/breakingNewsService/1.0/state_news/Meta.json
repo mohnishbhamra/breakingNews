@@ -1,0 +1,55 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "UpdateTimeStampField" : {
+      "DateFormat" : "",
+      "Name" : "lastupdatetimestamp"
+    },
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "state_news",
+      "qualifiedName" : "breakingnews.state_news",
+      "metadataformatterobject" : "{\"displayName\":\"state_news\",\"qualifiedName\":\"breakingnews.state_news\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"state_news\",\"schemaName\":\"breakingnews\",\"tableName\":\"state_news\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "state_news",
+      "qualifiedName" : "breakingnews.state_news",
+      "metadataformatterobject" : "{\"displayName\":\"state_news\",\"qualifiedName\":\"breakingnews.state_news\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"state_news\",\"schemaName\":\"breakingnews\",\"tableName\":\"state_news\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "stateName",
+    "targetField" : "stateName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "stateId",
+    "targetField" : "stateId",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastupdatetimestamp",
+    "targetField" : "lastupdatetimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Date",
+    "targetField" : "Date",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  } ]
+}
