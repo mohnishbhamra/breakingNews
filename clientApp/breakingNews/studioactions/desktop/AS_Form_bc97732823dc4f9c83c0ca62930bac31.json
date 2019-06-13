@@ -13,6 +13,16 @@
             "KUID": "b3d4bd6b690a4a7d98c09580cbf6b70b"
         },
         "language": "js",
-        "actions": []
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f849d469487d4a45bd29b8d9672d5d64",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "sdkInit",
+            "display": "sdkInit",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
     }
 }
