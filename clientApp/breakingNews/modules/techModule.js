@@ -8,7 +8,7 @@ function newsCreate() {
     var obj = new kony.sdk.KNYObj(selectedObjectName);
     var record = {};
     record.techid = Number(FormSubNewsCreate.txtNewsID.text);
-    record.stateId = selectedStateKey;
+    record.stateId = Number(selectedStateKey);
     record.title = FormSubNewsCreate.txtTextBox.text;
     record.description = FormSubNewsCreate.txtDetailsNews.text;
     record.Date = "2019-06-12";

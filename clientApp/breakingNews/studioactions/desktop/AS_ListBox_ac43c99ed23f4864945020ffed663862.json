@@ -10,7 +10,7 @@
         "actions": [{
             "id": "ADD_SNIPPET_ide_onSelection_a0fb3e4f5a19410b902e9525f2ccbde9",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "selectedStateKey = eventobject.selectedKey;",
+            "codeSnippet": "selectedStateKey = Number(eventobject.selectedKey);",
             "callbackType": null
         }]
     }
