@@ -32,7 +32,7 @@
     }
   },
   "commonMappings" : [ {
-    "sourceFieldName" : "techid",
+    "sourceFieldName" : "id",
     "targetField" : "techid",
     "type" : "request_response"
   }, {

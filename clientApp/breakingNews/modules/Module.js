@@ -36,7 +36,7 @@ function sdkInit() {
   kony.print("init sdk");
   function initSuccess(result) {
     kony.print("init success " + JSON.stringify(result));
-    alert("init success " + JSON.stringify(result));
+    //alert("init success " + JSON.stringify(result));
     setup();
   }
   
@@ -55,7 +55,7 @@ function setup() {
   
   function setupSucccess(result) {
     kony.print("setup success " + JSON.stringify(result));
-    alert("setup success " + JSON.stringify(result));
+    //alert("setup success " + JSON.stringify(result));
     syncStateNews();
   }
   
@@ -75,7 +75,7 @@ function syncStateNews() {
   
   function syncStateNewsSuccess(result) {
   	kony.print(objectName + " sync success " + JSON.stringify(result));
-    alert(objectName + " sync success " + JSON.stringify(result));
+    //alert(objectName + " sync success " + JSON.stringify(result));
 	fetchStateNews();
   }
   
@@ -102,7 +102,7 @@ function fetchStateNews() {
   
   function getStateNewsSuccess(records) {
   	kony.print(objectName + " fetch success " + JSON.stringify(records));
-    alert(objectName + " fetch success " + JSON.stringify(records));    
+    //alert(objectName + " fetch success " + JSON.stringify(records));    
     stateNewsRecords = records;
     loadStateNewsDropDown();
   }
@@ -132,11 +132,11 @@ function loadStateNewsDropDown() {
 
 function getNews() {
   var newsType = frmWelcome.lstBoxNewsType.selectedKeyValue[1];
-  alert("news type " + newsType);
+  //alert("news type " + newsType);
   var objectName = "";
   function syncSuccessCallback() {
     kony.print(objectName + " sync success ");
-    alert(objectName + " sync success ");
+    //alert(objectName + " sync success ");
     getCurrentNews();
   }
   
@@ -157,17 +157,17 @@ function getNews() {
     var syncConfig = {};
     syncConfig.syncType = "downloadOnly";
     //TODO: Have to use filter
-    //syncConfig.filter = "Date eq " + filter;
+    //syncConfig.filter = globalDate;
     sdkObject.startSync(syncConfig, syncSuccessCallback, syncFailureCallback, syncProgressCallback);
   }
 }
 
 function getCurrentNews() {
   kony.print("fetching current news");
-  alert("fetching current news");
+ // alert("fetching current news");
   function getCurrentNewsSuccess(records) {
     kony.print(currentNewsObject + " fetch success " + JSON.stringify(records));
-    alert(currentNewsObject + " fetch success " + JSON.stringify(records));
+    //alert(currentNewsObject + " fetch success " + JSON.stringify(records));
     currentNews = records;
     frmNews.show();
   }
@@ -189,16 +189,18 @@ function getCurrentNews() {
 
 function populateCurrentNews() {
   kony.print("populateCurrentNews");
-  alert("populateCurrentNews");
+  //alert("populateCurrentNews");
   var segmentData = [];
   for(var i=0; i<currentNews.length; i++) {
     var rowData = {};
-    rowData.lblTitle = currentNews[i].title;
-    rowData.lblDescription = currentNews[i].description;
-    var crawBytes = kony.convertToRawBytes(currentNews[i].image1);
-    rowData.imgNews = {"rawBytes":crawBytes};
+    rowData.lblTitle = currentNews[i].title?currentNews[i].title:"no title";
+    rowData.lblDescription = currentNews[i].description?currentNews[i].description:"no description";
+    rowData.imgNews1 = {"base64":currentNews[i].image1};
+    rowData.imgNews2 = {"base64":currentNews[i].image2};
+    rowData.imgNews3 = {"base64":currentNews[i].image3};    
     segmentData.push(rowData);
   }
+  
   frmNews.segNews.setData(segmentData);  
 }
 

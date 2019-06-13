@@ -32,7 +32,7 @@
     }
   },
   "commonMappings" : [ {
-    "sourceFieldName" : "sportid",
+    "sourceFieldName" : "id",
     "targetField" : "sportid",
     "type" : "request_response"
   }, {

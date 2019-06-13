@@ -9,7 +9,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "80%"
+        "value": "60%"
     },
     "_margin_": [
         0,
@@ -38,16 +38,16 @@
     "containerweight": 100,
     "context": {
         "channel": "desktop",
-        "formID": "segNewsTemplate",
+        "platform": "desktopweb",
         "templateType": "segments",
         "topLevelBox": null
     },
-    "id": "imgNews",
+    "id": "imgNews2",
     "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b4e94ad6a0824fc794cb407479a98cfd",
+    "kuid": "d5d745ee40924032bf46a4cea2e8de66",
     "name": "kony.ui.Image2",
     "parent": "segNewsFlxContainer",
     "pf": "segNewsTemplate",
