@@ -7,6 +7,7 @@
 .nativebindings
 .userlibs
 .webapps
+webapps
 HeadlessBuild-Global.properties  
 __appextensions__  
 konyplugins.xml  
