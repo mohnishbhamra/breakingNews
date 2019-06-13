@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "s4587caadb9e49899697123e7a8ff879",
-    "_text_": "createNews",
+    "_text_": "deleteNews",
     "_top_": {
         "type": "string",
-        "value": "2%"
+        "value": "12%"
     },
     "_width_": {
         "type": "string",
@@ -37,12 +37,12 @@
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s13f8089e1314f979c694d775f4ffee1",
-    "id": "btnCreateNews",
-    "ide_onClick": "AS_Button_ge586797024a43bf9ad2a01173715547",
+    "id": "btnDeleteNews",
+    "ide_onClick": "AS_Button_a726cb292d30482fb9beaf1e6a53d6ad",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e778ca02a0f74df4944ae54643034202",
+    "kuid": "f72f45e6335a4ebcbd290eced15fe1ec",
     "name": "kony.ui.Button",
     "parent": "flxInnnerCreateNews",
     "pf": "FormSubNewsCreate",

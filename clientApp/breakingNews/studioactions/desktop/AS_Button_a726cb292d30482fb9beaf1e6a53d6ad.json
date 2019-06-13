@@ -1,0 +1,27 @@
+{
+    "AS_Button_a726cb292d30482fb9beaf1e6a53d6ad": {
+        "id": "AS_Button_a726cb292d30482fb9beaf1e6a53d6ad",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormSubNewsCreate",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f56f4ecf919e48dbbd6a3ea475cf07c9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_aac43291d27c499bbca1414072cbc806",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "newsDelete",
+            "display": "newsDelete",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

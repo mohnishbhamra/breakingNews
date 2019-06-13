@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "s4587caadb9e49899697123e7a8ff879",
-    "_text_": "createNews",
+    "_text_": "updateNews",
     "_top_": {
         "type": "string",
-        "value": "2%"
+        "value": "12%"
     },
     "_width_": {
         "type": "string",
@@ -37,12 +37,12 @@
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s13f8089e1314f979c694d775f4ffee1",
-    "id": "btnCreateNews",
-    "ide_onClick": "AS_Button_ge586797024a43bf9ad2a01173715547",
+    "id": "btnUpdateNews",
+    "ide_onClick": "AS_Button_f7c93869d76949f589804a400f4ed1ca",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e778ca02a0f74df4944ae54643034202",
+    "kuid": "aa3bc85b655e420a8a4bcc80d165a252",
     "name": "kony.ui.Button",
     "parent": "flxInnnerCreateNews",
     "pf": "FormSubNewsCreate",

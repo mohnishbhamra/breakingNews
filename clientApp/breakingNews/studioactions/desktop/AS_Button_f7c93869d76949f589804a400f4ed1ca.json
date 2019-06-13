@@ -1,0 +1,27 @@
+{
+    "AS_Button_f7c93869d76949f589804a400f4ed1ca": {
+        "id": "AS_Button_f7c93869d76949f589804a400f4ed1ca",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormSubNewsCreate",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f56f4ecf919e48dbbd6a3ea475cf07c9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_c8bd8340a9e64c1aafe0598b1558f33c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "newsUpdate",
+            "display": "newsUpdate",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

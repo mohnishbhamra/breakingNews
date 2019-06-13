@@ -2,7 +2,7 @@
 
 var globalDate = "";
 var selectedObjectName = "";
-var selectedStateKey ;
+var selectedStateKey;
 //sample create function
 function newsCreate() {
     var obj = new kony.sdk.KNYObj(selectedObjectName);
@@ -20,15 +20,30 @@ function newsCreate() {
 function newsUpdate() {
     var obj = new kony.sdk.KNYObj(selectedObjectName);
     var record = {};
-    record.id = Number(FormSubNewsCreate.txtNewsID.text);
-    record.stateId = Number(selectedStateKey);
     record.title = FormSubNewsCreate.txtTextBox.text;
     record.description = FormSubNewsCreate.txtDetailsNews.text;
-    record.Date = globalDate;
     record.image1 = gloablImagesSet[0];
     record.image2 = gloablImagesSet[1];
     record.image3 = gloablImagesSet[2];
-    obj.update(record, {}, successCallback, failureCallback);
+
+    var options = {};
+    var primaryKeys = {};
+    primaryKeys.id = Number(FormSubNewsCreate.txtNewsID.text);
+    primaryKeys.stateId = Number(selectedStateKey);
+    primaryKeys.Date = globalDate;
+    options.primaryKeys = primaryKeys;
+    obj.update(record, options, successCallback, failureCallback);
+}
+
+function newsDelete() {
+    var obj = new kony.sdk.KNYObj(selectedObjectName);
+    var options = {};
+    var primaryKeys = {};
+    primaryKeys.id = Number(FormSubNewsCreate.txtNewsID.text);
+    primaryKeys.stateId = Number(selectedStateKey);
+    primaryKeys.Date = globalDate;
+    options.primaryKeys = primaryKeys;
+    obj.delete(options, successCallback, failureCallback);
 }
 
 
@@ -55,12 +70,12 @@ async function readFileAsDataURL(file) {
         fileReader.onload = (e) => resolve(fileReader.result);
         fileReader.readAsDataURL(file);
     });
- return result_base64;
+    return result_base64;
 }
 
 
-function getCurrentDate(eventobject , isValidDateSelected){
+function getCurrentDate(eventobject, isValidDateSelected) {
     var regex = new RegExp("/", 'g');
     var date = eventobject.date;
-    globalDate = date.replace(regex,"-");
+    globalDate = date.replace(regex, "-");
 }
