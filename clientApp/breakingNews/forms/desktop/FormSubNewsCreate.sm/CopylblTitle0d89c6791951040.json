@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "26.64%"
+        "value": "26.67%"
     },
     "_margin_": [
         1,
@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "s8c7ee39ecf14258bb17a8fb9f5e89d0",
-    "_text_": "Title",
+    "_text_": "Description",
     "_top_": {
         "type": "string",
-        "value": "34.44%"
+        "value": "44.48%"
     },
     "_width_": {
         "type": "string",
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "CopylblNewsType0hac9ea25c85c4b",
+    "id": "CopylblTitle0d89c6791951040",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,7 +56,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "h1708c8c134c44d881afaaa6a9edaa40",
+    "kuid": "i7d157dbf4484d45b7aa8ec1303122f6",
     "name": "kony.ui.Label",
     "parent": "FormSubNewsCreate",
     "pf": "FormSubNewsCreate",

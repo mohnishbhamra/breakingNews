@@ -47,8 +47,11 @@
         "lblDate",
         "calBtn",
         "lblNewsType",
-        "CopylblNewsType0hac9ea25c85c4b",
-        "lstBoxNewsType"
+        "lblTitle",
+        "CopylblTitle0d89c6791951040",
+        "lstBoxNewsType",
+        "txtTextBox",
+        "txtDetailsNews"
     ],
     "containerweight": 100,
     "currentLocale": "default",
