@@ -97,3 +97,7 @@ velocity.log
 # web/cordova/plugins
 # web/cordova/platforms
 
+konyplugins.xml
+mBaas.properties
+resources
+nativebindings
