@@ -75,7 +75,11 @@ async function readFileAsDataURL(file) {
 
 
 function getCurrentDate(eventobject, isValidDateSelected) {
+    formatDateForSync(eventobject.date);
+}
+
+function formatDateForSync(dateValue) {
     var regex = new RegExp("/", 'g');
-    var date = eventobject.date;
+    var date = dateValue;
     globalDate = date.replace(regex, "-");
 }
