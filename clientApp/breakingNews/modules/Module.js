@@ -23,7 +23,6 @@ function getFileObject() {
 }
 
 getBase64FromBlob = function (blobObj, callback) {
-    // blobObj = blobObj.BlobObject;
     var reader = new FileReader();
     reader.readAsDataURL(blobObj);
     reader.onloadend = function () {

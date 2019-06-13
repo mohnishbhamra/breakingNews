@@ -7,7 +7,6 @@ var selectedStateKey ;
 function newsCreate() {
     var obj = new kony.sdk.KNYObj(selectedObjectName);
     var record = {};
-    record.techid = Number(FormSubNewsCreate.txtNewsID.text);
     record.stateId = Number(selectedStateKey);
     record.title = FormSubNewsCreate.txtTextBox.text;
     record.description = FormSubNewsCreate.txtDetailsNews.text;
@@ -17,6 +16,21 @@ function newsCreate() {
     record.image3 = gloablImagesSet[2];
     obj.create(record, {}, successCallback, failureCallback);
 }
+
+function newsUpdate() {
+    var obj = new kony.sdk.KNYObj(selectedObjectName);
+    var record = {};
+    record.id = Number(FormSubNewsCreate.txtNewsID.text);
+    record.stateId = Number(selectedStateKey);
+    record.title = FormSubNewsCreate.txtTextBox.text;
+    record.description = FormSubNewsCreate.txtDetailsNews.text;
+    record.Date = globalDate;
+    record.image1 = gloablImagesSet[0];
+    record.image2 = gloablImagesSet[1];
+    record.image3 = gloablImagesSet[2];
+    obj.update(record, {}, successCallback, failureCallback);
+}
+
 
 var gloablImagesSet = [];
 function getImages() {
