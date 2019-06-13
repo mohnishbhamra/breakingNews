@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "39.97%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4587caadb9e49899697123e7a8ff879",
+    "_text_": "CreateNews",
+    "_top_": {
+        "type": "string",
+        "value": "72.48%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s13f8089e1314f979c694d775f4ffee1",
+    "id": "btnCreateNews",
+    "ide_onClick": "AS_Button_b42b43ee1ee5441d83d8151be33eeee5",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "afb7cf0ae33f40cbb34ee18cc52673f2",
+    "name": "kony.ui.Button",
+    "parent": "frmWelcome",
+    "pf": "frmWelcome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

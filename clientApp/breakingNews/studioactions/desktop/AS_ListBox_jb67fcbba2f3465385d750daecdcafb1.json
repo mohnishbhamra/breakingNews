@@ -1,0 +1,12 @@
+{
+    "AS_ListBox_jb67fcbba2f3465385d750daecdcafb1": {
+        "id": "AS_ListBox_jb67fcbba2f3465385d750daecdcafb1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": []
+    }
+}

@@ -47,9 +47,8 @@
         "lblDate",
         "calBtn",
         "lblNewsType",
-        "lstBoxNewsType",
-        "btnFetchNews",
-        "btnCreateNews"
+        "CopylblNewsType0hac9ea25c85c4b",
+        "lstBoxNewsType"
     ],
     "containerweight": 100,
     "currentLocale": "default",
@@ -59,9 +58,8 @@
     "device": "desktopweb",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmWelcome",
-    "ide_init": "AS_Form_bc97732823dc4f9c83c0ca62930bac31",
-    "ide_preShow": "AS_Form_c71e1d5f52fa41b78804badc75da6965",
+    "id": "FormSubNewsCreate",
+    "ide_postShow": "AS_Form_fba508c029774b02ae682f46b056530c",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -84,7 +82,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "b3d4bd6b690a4a7d98c09580cbf6b70b",
+    "kuid": "f56f4ecf919e48dbbd6a3ea475cf07c9",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,

@@ -1,0 +1,31 @@
+{
+    "AS_Button_b42b43ee1ee5441d83d8151be33eeee5": {
+        "id": "AS_Button_b42b43ee1ee5441d83d8151be33eeee5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWelcome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b3d4bd6b690a4a7d98c09580cbf6b70b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___hf4bedfb281141b89694d5bdefeb48ea",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "FormSubNewsCreate",
+            "formKUID": "f56f4ecf919e48dbbd6a3ea475cf07c9",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnCreateNews\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "6.67%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "26.64%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8c7ee39ecf14258bb17a8fb9f5e89d0",
+    "_text_": "Title",
+    "_top_": {
+        "type": "string",
+        "value": "34.44%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "15.03%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "CopylblNewsType0hac9ea25c85c4b",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h1708c8c134c44d881afaaa6a9edaa40",
+    "name": "kony.ui.Label",
+    "parent": "FormSubNewsCreate",
+    "pf": "FormSubNewsCreate",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

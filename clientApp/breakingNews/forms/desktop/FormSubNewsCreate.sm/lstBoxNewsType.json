@@ -1,0 +1,76 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "46.67%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s4af1ed61ac347e480dbd8249d583bf4",
+    "_top_": {
+        "type": "string",
+        "value": "22.89%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s8ef6099dd7941d595d63bc2b1689acc",
+    "groupcells": false,
+    "id": "lstBoxNewsType",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ba0ed380a9c649c7a26d504e74e95096",
+    "masterdata": [
+        [
+            "type1",
+            "technolgy"
+        ],
+        [
+            "type2",
+            "sports"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "FormSubNewsCreate",
+    "pf": "FormSubNewsCreate",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "type1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "type1",
+        "technolgy"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

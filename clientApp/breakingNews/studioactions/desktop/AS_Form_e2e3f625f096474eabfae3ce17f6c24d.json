@@ -1,0 +1,18 @@
+{
+    "AS_Form_e2e3f625f096474eabfae3ce17f6c24d": {
+        "id": "AS_Form_e2e3f625f096474eabfae3ce17f6c24d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormSubNewsCreate",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f56f4ecf919e48dbbd6a3ea475cf07c9"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

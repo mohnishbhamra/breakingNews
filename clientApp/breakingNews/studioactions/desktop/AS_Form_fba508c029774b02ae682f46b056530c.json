@@ -1,0 +1,28 @@
+{
+    "AS_Form_fba508c029774b02ae682f46b056530c": {
+        "id": "AS_Form_fba508c029774b02ae682f46b056530c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormSubNewsCreate",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f56f4ecf919e48dbbd6a3ea475cf07c9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___hb7a6abed5ce40b79de71c00267b624d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "FormSubNewsCreatePostShow",
+            "display": "FormSubNewsCreatePostShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}
