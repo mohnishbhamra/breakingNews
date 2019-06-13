@@ -1,0 +1,35 @@
+{
+    "AS_Calendar_h979280c7b7f4440b809f948df6dcd37": {
+        "id": "AS_Calendar_h979280c7b7f4440b809f948df6dcd37",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "boolean",
+            "name": "isValidDateSelected"
+        }],
+        "contextObj": {
+            "name": "frmWelcome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b3d4bd6b690a4a7d98c09580cbf6b70b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___g5c0a26a739b427c994ca92c29c360e3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCurrentDate",
+            "display": "getCurrentDate",
+            "inputparams": [{
+                "name": "eventobject"
+            }, {
+                "name": "isValidDateSelected"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,68 +1,80 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "@class": "com.kony.gen.viz.model.component.KVizTextArea2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50%"
+        "value": "70%"
     },
     "_left_": {
         "type": "string",
         "value": "0%"
     },
     "_margin_": [
-        1,
-        1,
-        1,
-        1
+        2,
+        2,
+        2,
+        2
     ],
     "_padding_": [
-        0,
-        0,
-        0,
-        0
+        2,
+        2,
+        2,
+        2
     ],
-    "_skin_": "s8c7ee39ecf14258bb17a8fb9f5e89d0",
-    "_text_": "Label",
+    "_placeholder_": "Placeholder",
+    "_skin_": "saa3f121b8524fa5bc672851840e7631",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "50%"
+        "value": "30%"
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "40%"
     },
-    "_wrapping_": 2,
-    "android": {
-        "textStyle": {
-            "letterSpacing": 0,
-            "strikeThrough": false
-        }
-    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
     "canUpdateUI": true,
+    "closebuttontext": "",
+    "containerId": true,
+    "containerheight": "",
+    "containerheightmode": 1,
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 2,
+    "focusskin": "s462c2b74eab48c4856bc74331124654",
     "id": "lblDescription",
     "info": null,
-    "ipad": {
-        "psp": {
-            "wrapping": 2
-        }
-    },
-    "iphone": {
-        "psp": {
-            "wrapping": 2
-        }
-    },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "h760b4dc348d4253943377cb1fa23324",
-    "name": "kony.ui.Label",
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "hef237a25f9e40398f1d458892cf1cda",
+    "mode": "A",
+    "name": "kony.ui.TextArea2",
+    "numberofvisiblelines": 3,
     "parent": "segNewsFlxContainer",
     "pf": "segNewsTemplate",
+    "placeholderskin": "s11e8572e097473189922070309c659c",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "showoprogressindicator": false,
+    "showprogressindicator": false,
+    "textinputmode": "A",
     "tooltip": "",
-    "wType": "Label",
+    "viewtype": "default",
+    "wType": "TextArea",
+    "watchos": {
+        "render": false
+    },
+    "windows10": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    },
     "zindex": 1
 }

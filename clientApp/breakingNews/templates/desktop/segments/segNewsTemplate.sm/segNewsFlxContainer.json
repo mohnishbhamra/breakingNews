@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "25%"
+        "value": "40%"
     },
     "_left_": {
         "type": "string",
@@ -35,9 +35,11 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
+        "imgNews1",
+        "imgNews2",
+        "imgNews3",
         "lblTitle",
-        "lblDescription",
-        "imgNews"
+        "lblDescription"
     ],
     "clipbounds": true,
     "containerId": true,
@@ -45,6 +47,7 @@
     "enablescrolling": true,
     "id": "segNewsFlxContainer",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "ecdefcf105f14088bcf38a9a4ed11243",

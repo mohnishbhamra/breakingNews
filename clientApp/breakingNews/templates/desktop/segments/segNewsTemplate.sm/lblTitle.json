@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50%"
+        "value": "30%"
     },
     "_left_": {
         "type": "string",
@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s8c7ee39ecf14258bb17a8fb9f5e89d0",
+    "_skin_": "s98da14e9f5c4d80bc2ef764be918f83",
     "_text_": "Label",
     "_top_": {
         "type": "string",
@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "40%"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,8 +40,9 @@
         }
     },
     "canUpdateUI": true,
+    "containerId": true,
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 5,
     "id": "lblTitle",
     "info": null,
     "ipad": {
@@ -56,7 +57,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d13003b506a84136a87f7889fe72ec7f",
+    "kuid": "ec4d4003fc5a4d20bdcfecfc48c5ce88",
     "name": "kony.ui.Label",
     "parent": "segNewsFlxContainer",
     "pf": "segNewsTemplate",
