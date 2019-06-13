@@ -1,6 +1,0 @@
-framework module CMS {
-  umbrella header "CMS.h"
-
-  export *
-  module * { export * }
-}
