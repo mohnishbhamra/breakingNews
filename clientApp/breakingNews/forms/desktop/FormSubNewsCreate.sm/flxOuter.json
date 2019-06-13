@@ -45,7 +45,8 @@
         "flxInnnerNewsID",
         "flxInnnerTitle",
         "flxInnnerDescription",
-        "flxInnnerCreateNews"
+        "flxInnnerCreateNews",
+        "btnApplicationSync"
     ],
     "clipbounds": true,
     "containerweight": 100,
