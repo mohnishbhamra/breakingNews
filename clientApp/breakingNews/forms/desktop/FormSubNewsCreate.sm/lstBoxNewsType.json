@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "5%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -26,19 +26,23 @@
     "_skin_": "s4af1ed61ac347e480dbd8249d583bf4",
     "_top_": {
         "type": "string",
-        "value": "22.89%"
+        "value": "2%"
     },
     "_width_": {
         "type": "string",
         "value": "30%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "65%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
     "focusskin": "s8ef6099dd7941d595d63bc2b1689acc",
     "groupcells": false,
     "id": "lstBoxNewsType",
-    "ide_onSelection": "AS_ListBox_c268288a1f974a9880570e7b81fb3926",
+    "ide_onSelection": "AS_ListBox_f7d9c72fd1da4078a568a612413df659",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
@@ -54,7 +58,7 @@
         ]
     ],
     "name": "kony.ui.ListBox",
-    "parent": "FormSubNewsCreate",
+    "parent": "flxInnnerNewsType",
     "pf": "FormSubNewsCreate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

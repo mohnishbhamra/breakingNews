@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "6.67%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -26,11 +26,11 @@
     "_text_": "Title",
     "_top_": {
         "type": "string",
-        "value": "34.44%"
+        "value": "2%"
     },
     "_width_": {
         "type": "string",
-        "value": "15.03%"
+        "value": "30%"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,6 +40,10 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "25%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
     "id": "lblTitle",
@@ -58,7 +62,7 @@
     "isvisible": true,
     "kuid": "h1708c8c134c44d881afaaa6a9edaa40",
     "name": "kony.ui.Label",
-    "parent": "FormSubNewsCreate",
+    "parent": "flxInnnerTitle",
     "pf": "FormSubNewsCreate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -1,0 +1,21 @@
+{
+    "AS_Button_e737523783014ad4bb3c381874ba492d": {
+        "id": "AS_Button_e737523783014ad4bb3c381874ba492d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_fea5a21e978a4efd9085f7ebc6eece6f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getImages",
+            "display": "getImages",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

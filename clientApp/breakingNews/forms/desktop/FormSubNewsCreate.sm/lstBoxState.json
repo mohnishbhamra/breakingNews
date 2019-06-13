@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "5%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "46.67%"
+        "value": "50%"
     },
     "_margin_": [
         0,
@@ -26,11 +26,11 @@
     "_skin_": "s4af1ed61ac347e480dbd8249d583bf4",
     "_top_": {
         "type": "string",
-        "value": "2.89%"
+        "value": "2%"
     },
     "_width_": {
         "type": "string",
-        "value": "30%"
+        "value": "50%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
@@ -38,7 +38,7 @@
     "focusskin": "s8ef6099dd7941d595d63bc2b1689acc",
     "groupcells": false,
     "id": "lstBoxState",
-    "ide_onSelection": "AS_ListBox_jb67fcbba2f3465385d750daecdcafb1",
+    "ide_onSelection": "AS_ListBox_ac43c99ed23f4864945020ffed663862",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
@@ -50,7 +50,7 @@
     "kuid": "f064fd6008eb4553822991b31755a5d4",
     "masterdata": [],
     "name": "kony.ui.ListBox",
-    "parent": "FormSubNewsCreate",
+    "parent": "flxInnnerSate",
     "pf": "FormSubNewsCreate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

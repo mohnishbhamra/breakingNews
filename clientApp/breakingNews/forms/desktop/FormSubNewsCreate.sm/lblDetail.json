@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s8c7ee39ecf14258bb17a8fb9f5e89d0",
-    "_text_": "News ID",
+    "_text_": "Description",
     "_top_": {
         "type": "string",
         "value": "2%"
@@ -46,7 +46,7 @@
     },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblNewsID",
+    "id": "lblDetail",
     "info": null,
     "ipad": {
         "psp": {
@@ -60,9 +60,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "adf2c09523dd48df977ce5bf85ee7409",
+    "kuid": "i7d157dbf4484d45b7aa8ec1303122f6",
     "name": "kony.ui.Label",
-    "parent": "flxInnnerNewsID",
+    "parent": "flxInnnerDescription",
     "pf": "FormSubNewsCreate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "5%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "26.67%"
+        "value": "10%"
     },
     "_margin_": [
         1,
@@ -26,11 +26,11 @@
     "_text_": "Select Date",
     "_top_": {
         "type": "string",
-        "value": "12.89%"
+        "value": "2%"
     },
     "_width_": {
         "type": "string",
-        "value": "15%"
+        "value": "30%"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,6 +40,10 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "25%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
     "id": "lblDate",
@@ -58,7 +62,7 @@
     "isvisible": true,
     "kuid": "ff27c43216b24b03836cbe3d1f4442aa",
     "name": "kony.ui.Label",
-    "parent": "FormSubNewsCreate",
+    "parent": "flxInnnerDate",
     "pf": "FormSubNewsCreate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -27,17 +27,21 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "605dp"
+        "value": "2%"
     },
     "_width_": {
         "type": "string",
-        "value": "350dp"
+        "value": "30%"
     },
     "autocapitalize": "none",
     "autocomplete": false,
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "65%"
+    },
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,
@@ -50,9 +54,9 @@
     "keyboardstyle": "A",
     "keyboardtype": "A",
     "kuid": "a068795583e945b5b4f2dba4f2289ecb",
-    "mode": "A",
+    "mode": "N",
     "name": "kony.ui.TextBox2",
-    "parent": "FormSubNewsCreate",
+    "parent": "flxInnnerNewsID",
     "pf": "FormSubNewsCreate",
     "placeholderskin": "s1bf90b645624263b1895ac91bf490a1",
     "retaincontentalignment": false,

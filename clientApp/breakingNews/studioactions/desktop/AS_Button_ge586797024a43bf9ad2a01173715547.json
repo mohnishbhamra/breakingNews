@@ -1,0 +1,21 @@
+{
+    "AS_Button_ge586797024a43bf9ad2a01173715547": {
+        "id": "AS_Button_ge586797024a43bf9ad2a01173715547",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_f76557c6d54245c8832e91f34e5a1dbd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "newsCreate",
+            "display": "newsCreate",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

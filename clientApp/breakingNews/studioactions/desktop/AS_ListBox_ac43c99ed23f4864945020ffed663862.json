@@ -1,0 +1,17 @@
+{
+    "AS_ListBox_ac43c99ed23f4864945020ffed663862": {
+        "id": "AS_ListBox_ac43c99ed23f4864945020ffed663862",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_a0fb3e4f5a19410b902e9525f2ccbde9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "selectedStateKey = eventobject.selectedKey;",
+            "callbackType": null
+        }]
+    }
+}

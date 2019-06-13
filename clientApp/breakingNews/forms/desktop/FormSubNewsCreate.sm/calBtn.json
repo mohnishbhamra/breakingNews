@@ -13,11 +13,11 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "5%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "46.67%"
+        "value": "10%"
     },
     "_margin_": [
         0,
@@ -39,7 +39,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "12.89%"
+        "value": "2%"
     },
     "_width_": {
         "type": "string",
@@ -48,6 +48,10 @@
     "advview": "default",
     "calendaricon": "calbtn.png",
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "65%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "datecomponents": [
@@ -79,7 +83,7 @@
     "hidemonthsheader": false,
     "hour": 15,
     "id": "calBtn",
-    "ide_onSelection": "AS_Calendar_j8241984c85e4c1b8cd991af529234ae",
+    "ide_onSelection": "AS_Calendar_a9819a9f1e184fb499dcfa410a0c0b89",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
@@ -91,7 +95,7 @@
     "navigatorAlert": "Invalid Selection",
     "noofmonths": 1,
     "pagedate": "/2019",
-    "parent": "FormSubNewsCreate",
+    "parent": "flxInnnerDate",
     "pf": "FormSubNewsCreate",
     "popupHeight": "auto",
     "popupWidth": "auto",

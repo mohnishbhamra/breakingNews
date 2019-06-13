@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "5%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "26.67%"
+        "value": "10%"
     },
     "_margin_": [
         1,
@@ -26,11 +26,11 @@
     "_text_": "Select State",
     "_top_": {
         "type": "string",
-        "value": "2.89%"
+        "value": "2%"
     },
     "_width_": {
         "type": "string",
-        "value": "15%"
+        "value": "30%"
     },
     "_wrapping_": 2,
     "android": {
@@ -58,7 +58,7 @@
     "isvisible": true,
     "kuid": "b21d9bbc0890461f98ced9941f88e687",
     "name": "kony.ui.Label",
-    "parent": "FormSubNewsCreate",
+    "parent": "flxInnnerSate",
     "pf": "FormSubNewsCreate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

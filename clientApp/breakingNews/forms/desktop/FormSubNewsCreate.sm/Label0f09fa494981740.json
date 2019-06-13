@@ -1,14 +1,17 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
+    "Default": {
+        "contentAlignment": 5
+    },
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "6.67%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
-        "value": "26.67%"
+        "value": "0dp"
     },
     "_margin_": [
         1,
@@ -22,15 +25,15 @@
         0,
         0
     ],
-    "_skin_": "s8c7ee39ecf14258bb17a8fb9f5e89d0",
-    "_text_": "Description",
+    "_skin_": "s8349aacb4414f038b9793d8d9681d25",
+    "_text_": "Hello Reporter !!, Create your breaking News",
     "_top_": {
         "type": "string",
-        "value": "44.48%"
+        "value": "5%"
     },
     "_width_": {
-        "type": "string",
-        "value": "15.03%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -41,8 +44,11 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "CopylblTitle0d89c6791951040",
+    "contentalignment": 5,
+    "desktopweb": {
+        "contentAlignment": 5
+    },
+    "id": "Label0f09fa494981740",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,9 +62,12 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i7d157dbf4484d45b7aa8ec1303122f6",
+    "kiosk": {
+        "contentAlignment": 5
+    },
+    "kuid": "j89bac70899c476192f3cb64ee94f09b",
     "name": "kony.ui.Label",
-    "parent": "FormSubNewsCreate",
+    "parent": "flxOuter",
     "pf": "FormSubNewsCreate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

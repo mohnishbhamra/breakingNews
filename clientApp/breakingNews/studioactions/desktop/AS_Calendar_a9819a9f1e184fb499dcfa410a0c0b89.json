@@ -1,0 +1,30 @@
+{
+    "AS_Calendar_a9819a9f1e184fb499dcfa410a0c0b89": {
+        "id": "AS_Calendar_a9819a9f1e184fb499dcfa410a0c0b89",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "boolean",
+            "name": "isValidDateSelected"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onSelection_d510bf312d564a978c653eada738484d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCurrentDate",
+            "display": "getCurrentDate",
+            "inputparams": [{
+                "name": "eventobject",
+                "value": "eventobject\t"
+            }, {
+                "name": "isValidDateSelected",
+                "value": "isValidDateSelected\t"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

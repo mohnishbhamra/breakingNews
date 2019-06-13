@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -26,25 +26,29 @@
     "_text_": "createNews",
     "_top_": {
         "type": "string",
-        "value": "705dp"
+        "value": "2%"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "30%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "65%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "s13f8089e1314f979c694d775f4ffee1",
     "id": "btnCreateNews",
-    "ide_onClick": "AS_Button_cc09a2397ba5474689f87ac52d3bbd72",
+    "ide_onClick": "AS_Button_ge586797024a43bf9ad2a01173715547",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "e778ca02a0f74df4944ae54643034202",
     "name": "kony.ui.Button",
-    "parent": "FormSubNewsCreate",
+    "parent": "flxInnnerCreateNews",
     "pf": "FormSubNewsCreate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
