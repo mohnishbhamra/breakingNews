@@ -11,7 +11,7 @@ function newsCreate() {
     record.stateId = Number(selectedStateKey);
     record.title = FormSubNewsCreate.txtTextBox.text;
     record.description = FormSubNewsCreate.txtDetailsNews.text;
-    record.Date = "2019-06-12";
+    record.Date = globalDate;
     record.image1 = gloablImagesSet[0];
     record.image2 = gloablImagesSet[1];
     record.image3 = gloablImagesSet[2];

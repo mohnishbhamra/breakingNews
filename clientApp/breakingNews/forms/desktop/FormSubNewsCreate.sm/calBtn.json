@@ -60,7 +60,7 @@
         "2019"
     ],
     "dateeditable": true,
-    "dateformat": "dd/MM/yyyy",
+    "dateformat": "yyyy/MM/dd",
     "datesGroup": [],
     "datesState": 0,
     "day": "13",
@@ -72,13 +72,10 @@
     "entereddate": [
         "13",
         "6",
-        "2019",
-        0,
-        0,
-        0
+        "2019"
     ],
-    "format": "dd/MM/yyyy",
-    "formatteddate": "13/06/2019",
+    "format": "yyyy/MM/dd",
+    "formatteddate": "2019/06/13",
     "hidedaysheader": false,
     "hidemonthsheader": false,
     "hour": 15,
