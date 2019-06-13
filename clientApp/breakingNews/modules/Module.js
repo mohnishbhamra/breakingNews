@@ -117,15 +117,23 @@ function fetchStateNews() {
 
 function loadStateNewsDropDown() {
   stateNewsListBoxMasterData = [];  
+  function addKeyPair(keyValuePair){
+    var l = stateNewsListBoxMasterData.length;
+    for(var i=0 ; i<l ; i++){
+      if(stateNewsListBoxMasterData[i][0] == keyValuePair[0]){
+        return;
+      }
+    }
+    stateNewsListBoxMasterData.push(keyValuePair);
+  }
   for(var i=0; i < stateNewsRecords.length; i++) {
     var keyValuePair = [];
     if( stateNewsRecords[i] !== null && typeof(stateNewsRecords[i]) != 'undefined') {
       keyValuePair[0] = stateNewsRecords[i].stateId;
       keyValuePair[1] = stateNewsRecords[i].stateName;
-      stateNewsListBoxMasterData.push(keyValuePair);
+      addKeyPair(keyValuePair);
     }
   }
-  
   frmWelcome.lstBoxState.masterData = stateNewsListBoxMasterData;
 }
 
