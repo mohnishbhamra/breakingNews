@@ -1,0 +1,14 @@
+.backup
+.cloud
+.cordova
+.imports
+.intellisense
+.metadata
+.nativebindings
+.userlibs
+.webapps
+HeadlessBuild-Global.properties  
+__appextensions__  
+konyplugins.xml  
+konypluginstate.xml  
+temp
