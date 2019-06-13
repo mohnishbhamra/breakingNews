@@ -1,0 +1,37 @@
+{
+    "AS_Calendar_j8241984c85e4c1b8cd991af529234ae": {
+        "id": "AS_Calendar_j8241984c85e4c1b8cd991af529234ae",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "boolean",
+            "name": "isValidDateSelected"
+        }],
+        "contextObj": {
+            "name": "FormSubNewsCreate",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f56f4ecf919e48dbbd6a3ea475cf07c9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e239045c788f4b5f83c031481b86d12a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCurrentDate",
+            "display": "getCurrentDate",
+            "inputparams": [{
+                "name": "eventobject",
+                "value": "eventobject\t"
+            }, {
+                "name": "isValidDateSelected",
+                "value": "isValidDateSelected\t"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

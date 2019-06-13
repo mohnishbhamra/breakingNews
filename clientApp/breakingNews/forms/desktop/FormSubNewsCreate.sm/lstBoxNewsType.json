@@ -38,17 +38,18 @@
     "focusskin": "s8ef6099dd7941d595d63bc2b1689acc",
     "groupcells": false,
     "id": "lstBoxNewsType",
+    "ide_onSelection": "AS_ListBox_c268288a1f974a9880570e7b81fb3926",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "ba0ed380a9c649c7a26d504e74e95096",
     "masterdata": [
         [
-            "type1",
+            "technolgy_news",
             "technolgy"
         ],
         [
-            "type2",
+            "sports_news",
             "sports"
         ]
     ],
@@ -57,10 +58,10 @@
     "pf": "FormSubNewsCreate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "selectedkey": "type1",
+    "selectedkey": "technolgy_news",
     "selectedkeys": null,
     "selectedkeyvalue": [
-        "type1",
+        "technolgy_news",
         "technolgy"
     ],
     "selectedkeyvalues": null,

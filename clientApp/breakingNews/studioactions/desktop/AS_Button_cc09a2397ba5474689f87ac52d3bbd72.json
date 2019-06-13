@@ -1,0 +1,28 @@
+{
+    "AS_Button_cc09a2397ba5474689f87ac52d3bbd72": {
+        "id": "AS_Button_cc09a2397ba5474689f87ac52d3bbd72",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormSubNewsCreate",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f56f4ecf919e48dbbd6a3ea475cf07c9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b5b46faa94b54c799acd83f458091cfe",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "newsCreate",
+            "display": "newsCreate",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -43,6 +43,7 @@
     "canvasWidth": 1200,
     "children": [
         "lblState",
+        "lblNewsID",
         "lstBoxState",
         "lblDate",
         "calBtn",
@@ -51,7 +52,10 @@
         "CopylblTitle0d89c6791951040",
         "lstBoxNewsType",
         "txtTextBox",
-        "txtDetailsNews"
+        "txtNewsID",
+        "txtDetailsNews",
+        "btnGetImagesOfNews",
+        "btnCreateNews"
     ],
     "containerweight": 100,
     "currentLocale": "default",

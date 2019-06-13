@@ -7,6 +7,12 @@
             "name": "eventobject"
         }],
         "language": "js",
-        "actions": []
+        "actions": [{
+            "id": "ADD_SNIPPET__dadaa6eee102490282c22f87ee35033d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "selectedStateKey = eventobject.selectedKey;",
+            "parentId": null,
+            "callbackType": null
+        }]
     }
 }

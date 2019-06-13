@@ -117,12 +117,11 @@ function fetchStateNews() {
 }
 
 function loadStateNewsDropDown() {
-  stateNewsListBoxMasterData = [];
-  var key = "key";
+  stateNewsListBoxMasterData = [];  
   for(var i=0; i < stateNewsRecords.length; i++) {
     var keyValuePair = [];
     if( stateNewsRecords[i] !== null && typeof(stateNewsRecords[i]) != 'undefined') {
-      keyValuePair[0] = key + i;
+      keyValuePair[0] = stateNewsRecords[i].stateId;
       keyValuePair[1] = stateNewsRecords[i].stateName;
       stateNewsListBoxMasterData.push(keyValuePair);
     }

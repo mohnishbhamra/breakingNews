@@ -2,11 +2,15 @@
     "@class": "com.kony.gen.viz.model.component.KVizDateField",
     "DNDConfig": null,
     "Image": "calbtn.png",
-    "__id": "frmWelcome_Calendar0hef05152c89042",
-    "__input": "Calendar0hef05152c89042",
+    "__id": "FormSubNewsCreate_calBtn",
+    "__input": "calBtn",
     "__parentReadjusting__": false,
     "_data_": null,
-    "_date_": "12/6/2019",
+    "_date_": [
+        "13",
+        "6",
+        "2019"
+    ],
     "_height_": {
         "type": "string",
         "value": "5%"
@@ -28,6 +32,11 @@
         0
     ],
     "_skin_": "s23e409453a648ddbfef252b95d14890",
+    "_startG": [
+        0,
+        "6",
+        "2019"
+    ],
     "_top_": {
         "type": "string",
         "value": "12.89%"
@@ -42,43 +51,41 @@
     "containerweight": 100,
     "contentalignment": 5,
     "datecomponents": [
-        12,
-        6,
-        2019,
-        0,
-        0,
-        0
+        "13",
+        "6",
+        "2019"
     ],
     "dateeditable": true,
     "dateformat": "dd/MM/yyyy",
     "datesGroup": [],
     "datesState": 0,
-    "day": 12,
+    "day": "13",
     "daytextalignmentincell": 5,
     "displayedMonths": [
         6,
         2019
     ],
     "entereddate": [
-        12,
-        6,
-        2019,
+        "13",
+        "6",
+        "2019",
         0,
         0,
         0
     ],
     "format": "dd/MM/yyyy",
-    "formatteddate": "12/06/2019",
+    "formatteddate": "13/06/2019",
     "hidedaysheader": false,
     "hidemonthsheader": false,
-    "hour": 0,
+    "hour": 15,
     "id": "calBtn",
+    "ide_onSelection": "AS_Calendar_j8241984c85e4c1b8cd991af529234ae",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "fa56281111464991b6dd4eb650af4045",
-    "minutes": 0,
-    "month": 6,
+    "minutes": 48,
+    "month": "6",
     "monthsinrow": 3,
     "name": "kony.ui.Calendar",
     "navigatorAlert": "Invalid Selection",
@@ -90,7 +97,7 @@
     "popupWidth": "auto",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "seconds": 0,
+    "seconds": 10,
     "selectdate": "//2019",
     "startDay": 0,
     "viewtype": "default",
@@ -105,6 +112,6 @@
         "14.2857%;",
         "14.2857%;"
     ],
-    "year": 2019,
+    "year": "2019",
     "zindex": 1
 }
