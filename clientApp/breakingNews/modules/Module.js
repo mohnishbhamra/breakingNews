@@ -203,3 +203,8 @@ function populateCurrentNews() {
   }
   frmNews.segNews.setData(segmentData);  
 }
+
+function syncAll(){
+  var syncOptions = {};
+  KNYMobileFabric.OfflineObjects.startSync(syncOptions, successCallback, failureCallback);
+}
