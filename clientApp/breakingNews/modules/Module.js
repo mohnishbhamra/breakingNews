@@ -165,7 +165,7 @@ function getNews() {
     var syncConfig = {};
     syncConfig.syncType = "downloadOnly";
     //TODO: Have to use filter
-    //syncConfig.filter = globalDate;
+    syncConfig.filter = "Date eq '" + globalDate + "'";
     sdkObject.startSync(syncConfig, syncSuccessCallback, syncFailureCallback, syncProgressCallback);
   }
 }

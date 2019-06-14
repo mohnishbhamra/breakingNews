@@ -22,9 +22,11 @@
             "sequenceKUID": "getCurrentDate",
             "display": "getCurrentDate",
             "inputparams": [{
-                "name": "eventobject"
+                "name": "eventobject",
+                "value": " eventobject"
             }, {
-                "name": "isValidDateSelected"
+                "name": "isValidDateSelected",
+                "value": " isValidDateSelected"
             }],
             "parentId": null,
             "callbackType": null,
