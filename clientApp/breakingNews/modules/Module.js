@@ -201,11 +201,15 @@ function populateCurrentNews() {
   var segmentData = [];
   for(var i=0; i<currentNews.length; i++) {
     var rowData = {};
+    rowData.lblId = currentNews[i].id;
+    rowData.lblStateId = currentNews[i].stateId;
+    rowData.lblDate = currentNews[i].Date;   
     rowData.lblTitle = currentNews[i].title?currentNews[i].title:"no title";
     rowData.lblDescription = currentNews[i].description?currentNews[i].description:"no description";
     rowData.imgNews1 = {"base64":currentNews[i].image1};
     rowData.imgNews2 = {"base64":currentNews[i].image2};
-    rowData.imgNews3 = {"base64":currentNews[i].image3};    
+    rowData.imgNews3 = {"base64":currentNews[i].image3};   
+    rowData.btnDelete = {"text":"delete", "onClick":segmentBtnDeleteOnClick};
     segmentData.push(rowData);
   }
   
@@ -215,4 +219,29 @@ function populateCurrentNews() {
 function syncAll(){
   var syncOptions = {};
   KNYMobileFabric.OfflineObjects.startSync(syncOptions, successCallback, failureCallback);
+}
+
+function segmentBtnDeleteOnClick() {
+  kony.print("segment btn delete onclick");
+  var indexToDelete = frmNews.segNews.selectedRowIndex[1];
+  var idToDelete = parseInt(frmNews.segNews.data[indexToDelete].lblId);
+  var stateIdToDelete = parseInt(frmNews.segNews.data[indexToDelete].lblStateId);
+  var dateToDelete = frmNews.segNews.data[indexToDelete].lblDate;
+  var sdkObject = new kony.sdk.KNYObj(currentNewsObject);
+  var options = {};
+  var primaryKeys = {};
+  primaryKeys.id = idToDelete;
+  primaryKeys.stateId = stateIdToDelete;
+  primaryKeys.Date = dateToDelete;
+  
+  options.primaryKeys = primaryKeys;
+  function deleteByPKSuccessCallback(result) {
+    kony.print(idToDelete + "deleted ");
+    getCurrentNews();
+  }
+  
+  function deleteByPKFailureCallback(err) {
+    alert(idToDelete + "failed to delete " + JSON.stringify(err));
+  }
+  sdkObject.deleteByPK(options, deleteByPKSuccessCallback, deleteByPKFailureCallback);
 }

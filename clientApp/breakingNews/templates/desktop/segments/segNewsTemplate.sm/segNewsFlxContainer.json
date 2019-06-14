@@ -39,7 +39,11 @@
         "imgNews2",
         "imgNews3",
         "lblTitle",
-        "lblDescription"
+        "lblDescription",
+        "btnDelete",
+        "lblId",
+        "lblStateId",
+        "lblDate"
     ],
     "clipbounds": true,
     "containerId": true,

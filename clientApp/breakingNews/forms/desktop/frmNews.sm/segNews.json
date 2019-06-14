@@ -4,6 +4,10 @@
     "__parentReadjusting__": false,
     "_data_": [
         {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
             "imgNews1": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": ""
@@ -16,9 +20,21 @@
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": ""
             },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
             "lblDescription": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
+            },
+            "lblId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblStateId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             },
             "lblTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -116,10 +132,14 @@
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
+        "btnDelete": "btnDelete",
         "imgNews1": "imgNews1",
         "imgNews2": "imgNews2",
         "imgNews3": "imgNews3",
+        "lblDate": "lblDate",
         "lblDescription": "lblDescription",
+        "lblId": "lblId",
+        "lblStateId": "lblStateId",
         "lblTitle": "lblTitle",
         "segNewsFlxContainer": "segNewsFlxContainer"
     },

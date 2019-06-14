@@ -9,7 +9,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "60%"
+        "value": "55%"
     },
     "_margin_": [
         0,
@@ -31,7 +31,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "20%"
+        "value": "15%"
     },
     "canUpdateUI": true,
     "containerId": true,
