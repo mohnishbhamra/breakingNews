@@ -164,6 +164,7 @@ function getNews() {
     var filter = frmWelcome.calBtn.day + "/" + frmWelcome.calBtn.month + "/" + frmWelcome.calBtn.year;
     var syncConfig = {};
     syncConfig.syncType = "downloadOnly";
+    syncConfig.downloadBatchSize = 2;
     //TODO: Have to use filter
     syncConfig.filter = "Date eq '" + globalDate + "'";
     sdkObject.startSync(syncConfig, syncSuccessCallback, syncFailureCallback, syncProgressCallback);
